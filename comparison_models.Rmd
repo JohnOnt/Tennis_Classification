@@ -1,0 +1,88 @@
+---
+title: "Comparison Models"
+author: "Johnattan Ontiveros"
+date: "4/12/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library("BradleyTerry2")
+library("data.table")
+match_outcomes <- read.csv('match_outcomes.csv')
+match_outcomes <- match_outcomes[-1,]
+
+head(match_outcomes)
+```
+
+```{r}
+players <- unique(match_outcomes$Player1)
+players <- players[-574]
+rownames(players) <- NULL
+n <- length(players)
+
+contingency_df <- as.data.frame(matrix(0, n, n))
+colnames(contingency_df) <- players
+rownames(contingency_df) <- players
+
+for (i in seq(1,n)) {
+  p1 <- as.character(match_outcomes[i, 'Player1'])
+  p2 <- as.character(match_outcomes[i, 'Player2'])
+  
+  if (as.numeric(match_outcomes[i,'Outcome']) == 1) {
+    contingency_df[p2, p1] = as.numeric(contingency_df[p2, p1]) + 1
+  }
+  else {
+    contingency_df[p1, p2] = as.numeric(contingency_df[p1, p2]) + 1
+  }
+}
+
+head(contingency_df)
+```
+```{r}
+df_length = 201930 #(factorial(n)) #/ (factorial(2) * factorial(n - 2))
+
+bt_data <- as.data.frame(matrix(0, (df_length), 4))
+colnames(bt_data) <- c("p1", "p2", "win1", "win2")
+bt_data$p1 <- as.character(bt_data$p1)
+bt_data$p2 <- as.character(bt_data$p2)
+
+for (i in seq(1,n)) {
+  for (j in seq(i,n)) {
+    row_ind = 4*(i-1) + j - 1
+    p1 <- as.character(players[i])
+    p2 <- as.character(players[j])
+    #print((paste(j, p2)))
+    
+    bt_data[row_ind,] <- c(p1, p2, contingency_df[p2, p1], contingency_df[p1, p2])
+  }
+}
+
+```
+
+```{r}
+bt_data$p1 <- factor(bt_data$p1, levels=players)
+bt_data$p2 <- factor(bt_data$p2, levels=players)
+head(bt_data)
+```
+```{r}
+btModel <- BTm(cbind(win1, win2), player1 = p1, player2 = p2, 
+               data=bt_data)
+```
+
+```{r}
+citeModel <- BTm(cbind(win1, win2), journal1, journal2, ~ journal,
+                 id = "journal", data = citations.sf)
+citeModel
+```
+
+```{r}
+length(players)
+```
+
+
+
+
