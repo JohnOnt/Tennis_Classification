@@ -1,0 +1,680 @@
+rank,name,country_name,country_id,points,bestRank,bestRankDate,rankDiff,pointsDiff,bestPoints
+1,Novak Djokovic,Serbia,SRB,9045,1,2011-07-04,0,0,16950
+2,Rafael Nadal,Spain,ESP,7480,1,2008-08-18,0,0,15390
+3,Roger Federer,Switzerland,SUI,6420,1,2004-02-02,0,0,12315
+4,Alexander Zverev,Germany,GER,6385,3,2017-11-06,0,0,6630
+5,Juan Martin Del Potro,Argentina,ARG,5300,3,2018-08-13,0,0,6825
+6,Kevin Anderson,South Africa,RSA,4710,5,2018-07-16,0,0,4845
+7,Marin Cilic,Croatia,CRO,4250,3,2018-01-29,0,0,5155
+8,Dominic Thiem,Austria,AUT,4095,3,2020-03-02,0,0,9125
+9,Kei Nishikori,Japan,JPN,3590,4,2015-03-02,0,0,6385
+10,John Isner,United States,USA,3155,8,2018-07-16,0,0,3720
+11,Karen Khachanov,Russian Federation,RUS,2835,8,2019-07-15,0,0,2990
+12,Borna Coric,Croatia,CRO,2480,12,2018-11-05,0,0,2695
+13,Fabio Fognini,Italy,ITA,2315,9,2019-07-15,0,0,2920
+14,Kyle Edmund,United Kingdom,GBR,2150,14,2018-10-08,0,0,2330
+15,Stefanos Tsitsipas,Greece,GRE,2095,5,2019-08-05,0,0,7040
+16,Daniil Medvedev,Russian Federation,RUS,1977,2,2021-03-15,0,0,10030
+17,Diego Sebastian Schwartzman,Argentina,ARG,1880,8,2020-10-12,0,0,3720
+18,Milos Raonic,Canada,CAN,1855,3,2016-11-21,0,0,5450
+19,Grigor Dimitrov,Bulgaria,BUL,1835,3,2017-11-20,0,0,5150
+20,Marco Cecchinato,Italy,ITA,1819,16,2019-02-25,0,0,2091
+21,Nikoloz Basilashvili,Georgia,GEO,1795,16,2019-05-27,0,0,2020
+22,David Goffin,Belgium,BEL,1785,7,2017-11-20,0,0,3775
+23,Pablo Carreno Busta,Spain,ESP,1705,10,2017-09-11,0,0,2855
+24,Roberto Bautista Agut,Spain,ESP,1605,9,2019-11-04,0,0,3090
+25,Hyeon Chung,"Korea, Republic of",KOR,1585,19,2018-04-02,0,0,1897
+26,Richard Gasquet,France,FRA,1535,7,2007-07-09,0,0,3365
+27,Denis Shapovalov,Canada,CAN,1440,10,2020-09-21,0,0,3000
+28,Fernando Verdasco,Spain,ESP,1410,7,2009-04-20,0,0,3900
+29,Gael Monfils,France,FRA,1400,6,2016-11-07,0,0,3815
+30,Gilles Simon,France,FRA,1370,6,2009-01-05,0,0,4170
+31,Alex De Minaur,Australia,AUS,1298,18,2019-10-28,0,0,2235
+32,Lucas Pouille,France,FRA,1245,10,2018-03-19,0,0,2746
+33,Steve Johnson,United States,USA,1190,21,2016-07-25,0,0,1680
+34,Philipp Kohlschreiber,Germany,GER,1125,16,2012-07-30,0,0,2160
+35,Nick Kyrgios,Australia,AUS,1125,13,2016-10-24,0,0,2460
+36,Marton Fucsovics,Hungary,HUN,1122,31,2019-03-04,0,0,1497
+37,Andreas Seppi,Italy,ITA,1106,18,2013-01-28,0,0,1895
+38,John Millman,Australia,AUS,1083,33,2018-10-15,0,0,1436
+39,Frances Tiafoe,United States,USA,1080,29,2019-02-11,0,0,1430
+40,Jeremy Chardy,France,FRA,1050,25,2013-01-28,0,0,1486
+41,Martin Klizan,Slovakia,SVK,1050,24,2015-04-27,0,2,1445
+42,Adrian Mannarino,France,FRA,1045,22,2018-03-19,0,0,1735
+43,Nicolas Jarry,Chile,CHI,1022,38,2019-07-22,0,0,1135
+44,Joao Sousa,Portugal,POR,1017,28,2016-05-16,0,0,1355
+45,Malek Jaziri,Tunisia,TUN,1014,42,2019-01-07,0,0,1042
+46,Matthew Ebden,Australia,AUS,1001,39,2018-10-22,0,0,1134
+47,Damir Dzumhur,Bosnia and Herzegovina,BIH,985,23,2018-07-02,0,0,1665
+48,Dusan Lajovic,Serbia,SRB,985,23,2019-04-29,0,0,1895
+49,Taylor Harry Fritz,United States,USA,974,24,2020-03-02,0,0,1900
+50,Robin Haase,Netherlands,NED,965,33,2012-07-30,0,0,1220
+51,Sam Querrey,United States,USA,955,11,2018-02-26,0,0,2595
+52,Benoit Paire,France,FRA,935,18,2016-01-11,0,0,1805
+53,Mikhail Kukushkin,Kazakhstan,KAZ,935,39,2019-02-25,0,0,1075
+54,Matteo Berrettini,Italy,ITA,932,8,2019-11-04,0,0,3480
+55,Pierre Hugues Herbert,France,FRA,903,36,2019-02-11,0,0,1168
+56,Leonardo Mayer,Argentina,ARG,895,21,2015-06-22,0,0,1605
+57,Jan Lennard Struff,Germany,GER,875,29,2020-08-31,0,0,1495
+58,Guido Pella,Argentina,ARG,860,20,2019-08-19,0,0,1735
+59,Peter Gojowczyk,Germany,GER,855,39,2018-06-25,0,0,1175
+60,Marius Copil,Romania,ROU,823,56,2019-01-28,0,0,888
+61,Tennys Sandgren,United States,USA,814,41,2019-01-14,0,0,1091
+62,Ryan Harrison,United States,USA,810,40,2017-07-17,0,0,1160
+63,Denis Kudla,United States,USA,810,53,2016-05-23,0,0,858
+64,Feliciano Lopez,Spain,ESP,795,12,2015-03-02,0,0,2415
+65,Albert Ramos,Spain,ESP,790,17,2017-05-08,0,0,2180
+66,Stan Wawrinka,Switzerland,SUI,785,3,2014-01-27,0,0,6865
+67,Aljaz Bedene,Slovenia,SLO,780,43,2018-02-19,0,0,1168
+68,Andrey Rublev,Russian Federation,RUS,760,8,2020-10-19,0,0,5400
+69,Mischa Zverev,Germany,GER,750,25,2017-07-24,0,0,1664
+70,Vasek Pospisil,Canada,CAN,716,25,2014-01-27,0,0,1359
+71,Tomas Berdych,Czech Republic,CZE,715,4,2015-05-18,0,0,5230
+72,Jordan Thompson,Australia,AUS,715,43,2019-07-15,0,0,1113
+73,Roberto Carballes Baena,Spain,ESP,714,72,2018-02-19,0,0,806
+74,Maximilian Marterer,Germany,GER,706,45,2018-08-13,0,0,1022
+75,Yoshihito Nishioka,Japan,JPN,701,48,2020-02-24,0,0,1091
+76,Bradley Klahn,United States,USA,699,63,2014-03-17,0,0,731
+77,Taro Daniel,Japan,JPN,691,64,2018-08-27,0,0,834
+78,Mackenzie Mcdonald,United States,USA,688,57,2019-04-29,0,0,904
+79,Guido Andreozzi,Argentina,ARG,682,70,2019-01-28,0,2,711
+80,Federico Delbonis,Argentina,ARG,678,33,2016-05-09,0,0,1210
+81,Jaume Munar,Spain,ESP,663,52,2019-05-20,0,2,920
+82,Pablo Andujar,Spain,ESP,658,32,2015-07-13,0,2,1205
+83,Bernard Tomic,Australia,AUS,655,17,2016-01-11,0,0,1885
+84,Christian Garin,Chile,CHI,650,18,2020-02-24,1,2,2385
+85,Jozef Kovalik,Slovakia,SVK,638,80,2018-10-22,1,1,701
+86,Hubert Hurkacz,Poland,POL,636,16,2021-04-05,1,0,2600
+87,Mirza Basic,Bosnia and Herzegovina,BIH,636,74,2018-02-19,1,1,733
+88,Pablo Cuevas,Uruguay,URU,630,19,2016-08-15,1,0,1865
+89,Jiri Vesely,Czech Republic,CZE,629,35,2015-04-27,1,0,1125
+90,Cameron Norrie,United Kingdom,GBR,627,41,2019-05-20,1,0,1175
+91,Ilya Ivashka,Belarus,BLR,622,80,2019-02-04,1,0,713
+92,Denis Istomin,Uzbekistan,UZB,622,33,2012-08-13,1,0,1217
+93,Laslo Djere,Serbia,SRB,621,27,2019-06-10,1,0,1335
+94,Filip Krajinovic,Serbia,SRB,620,26,2018-04-23,1,0,1718
+95,Ernests Gulbis,Latvia,LAT,612,10,2014-06-09,1,1,2725
+96,Marcel Granollers,Spain,ESP,598,19,2012-07-23,1,0,1635
+97,Evgeny Donskoy,Russian Federation,RUS,594,65,2013-07-08,1,0,764
+98,Radu Albot,"Moldova, Republic of",MDA,592,39,2019-08-05,1,0,1137
+99,Reilly Opelka,United States,USA,590,31,2019-10-28,1,0,1457
+100,Ivo Karlovic,Croatia,CRO,589,14,2008-08-18,1,0,2295
+101,Thomas Fabbiano,Italy,ITA,573,70,2017-09-18,1,0,715
+102,Ugo Humbert,France,FRA,572,29,2021-03-15,-18,-81,1825
+103,Michael Mmoh,United States,USA,563,96,2018-10-01,0,0,595
+104,Pedro Sousa,Portugal,POR,550,99,2019-02-18,0,2,716
+105,Guillermo Garcia Lopez,Spain,ESP,543,23,2011-02-21,0,0,1465
+106,Jack Sock,United States,USA,540,8,2017-11-20,0,0,3165
+107,Lorenzo Sonego,Italy,ITA,532,28,2021-04-12,1,2,1919
+108,Felix Auger Aliassime,Canada,CAN,527,17,2019-10-14,1,2,2561
+109,Paolo Lorenzi,Italy,ITA,525,33,2017-05-15,1,2,1223
+110,Prajnesh Gunneswaran,India,IND,521,75,2019-04-22,-3,-17,748
+111,Jared Donaldson,United States,USA,520,48,2018-03-05,0,0,1038
+112,Casper Ruud,Norway,NOR,518,24,2021-02-22,1,0,1983
+113,Jason Kubler,Australia,AUS,516,91,2018-10-08,1,1,617
+114,Lukas Lacko,Slovakia,SVK,514,44,2013-01-14,1,0,917
+115,Elias Ymer,Sweden,SWE,511,105,2018-06-11,1,1,534
+116,Ricardas Berankis,Lithuania,LTU,507,50,2016-05-23,1,0,909
+117,Ruben Bemelmans,Belgium,BEL,496,84,2015-09-28,2,0,628
+118,Juan Ignacio Londero,Argentina,ARG,491,50,2019-11-11,2,1,1017
+119,Peter Polansky,Canada,CAN,482,110,2018-06-25,2,0,495
+120,Thiago Monteiro,Brazil,BRA,475,74,2017-02-27,3,2,954
+121,Jason Jung,"Taiwan, Province of China",TPE,470,114,2018-07-30,3,0,500
+122,Hugo Dellien,"Bolivia, Plurinational State of",BOL,466,72,2020-01-13,-4,-38,743
+123,Marco Trungelliti,Argentina,ARG,463,112,2019-03-04,-1,-19,517
+124,Marcos Baghdatis,Cyprus,CYP,460,8,2006-08-21,1,0,2111
+125,David Ferrer,Spain,ESP,460,3,2013-07-08,1,0,7220
+126,Yannick Maden,Germany,GER,460,96,2019-06-24,1,0,570
+127,Lloyd George Muirhead Harris,South Africa,RSA,458,50,2021-04-05,-15,-62,1182
+128,Quentin Halys,France,FRA,445,102,2018-02-05,0,1,531
+129,Adrian Menendez Maceiras,Spain,ESP,442,111,2015-06-08,0,2,505
+130,Matthias Bachinger,Germany,GER,440,85,2011-08-15,0,1,625
+131,Miomir Kecmanovic,Serbia,SRB,433,38,2021-03-08,1,0,1458
+132,Ramkumar Ramanathan,India,IND,433,111,2018-07-30,1,1,495
+133,Stefano Travaglia,Italy,ITA,426,60,2021-02-08,1,0,1024
+134,Sergiy Stakhovsky,Ukraine,UKR,424,31,2010-09-27,1,2,1263
+135,Noah Rubin,United States,USA,424,125,2018-10-08,-4,-10,456
+136,Bjorn Fratangelo,United States,USA,421,99,2016-06-06,0,0,583
+137,Yuki Bhambri,India,IND,420,83,2018-04-16,0,0,688
+138,Gilles Muller,Luxembourg,LUX,413,21,2017-07-31,0,0,1930
+139,Carlos Berlocq,Argentina,ARG,411,37,2012-03-19,0,1,1086
+140,Dennis Novak,Austria,AUT,387,85,2020-03-02,2,-14,785
+141,Simone Bolelli,Italy,ITA,384,36,2009-02-23,4,2,1686
+142,Lukas Rosol,Czech Republic,CZE,383,26,2014-09-22,-1,-24,1290
+143,Jurgen Zopp,Estonia,EST,372,71,2012-09-10,4,1,656
+144,Corentin Moutet,France,FRA,372,69,2020-09-14,4,2,963
+145,Yuichi Sugita,Japan,JPN,370,36,2017-10-09,4,1,1240
+146,Thanasi Kokkinakis,Australia,AUS,367,69,2015-06-08,4,0,723
+147,Alexei Popyrin,Australia,AUS,367,82,2021-03-01,4,2,906
+148,Tatsuma Ito,Japan,JPN,360,60,2012-10-22,5,-3,725
+149,Antonie Hoang,France,FRA,359,98,2019-08-19,-5,-31,575
+150,Mats Moraing,Germany,GER,359,148,2018-07-30,5,0,382
+151,Constant Lestienne,France,FRA,357,142,2019-01-14,5,1,384
+152,Yannick Hanfmann,Germany,GER,355,95,2020-10-19,5,1,804
+153,Facundo Bagnis,Argentina,ARG,353,55,2016-11-14,7,3,835
+154,Alex Bolt,Australia,AUS,352,125,2019-03-04,4,1,458
+155,Gianluigi Quinzi,Italy,ITA,343,142,2019-04-15,-9,-37,391
+156,Pedro Martinez Portero,Spain,ESP,336,82,2020-11-02,-4,-29,830
+157,Egor Gerasimov,Belarus,BLR,334,65,2020-02-24,6,2,946
+158,Salvatore Caruso,Italy,ITA,333,76,2020-11-16,4,1,898
+159,Rogerio Dutra Silva,Brazil,BRA,332,63,2017-07-24,5,2,733
+160,Alessandro Giannessi,Italy,ITA,332,84,2017-07-24,5,2,610
+161,Dominik Koepfer,Germany,GER,331,54,2021-03-22,-7,-29,1146
+162,Alexander Bublik,Kazakhstan,KAZ,323,42,2021-04-05,5,1,1462
+163,Gregoire Barrere,France,FRA,322,80,2019-10-07,-23,-85,665
+164,Tim Smyczek,United States,USA,318,68,2015-04-06,6,0,688
+165,Filippo Baldi,Italy,ITA,318,144,2019-07-29,4,-1,379
+166,Marc Polmans,Australia,AUS,318,116,2020-10-12,-23,-80,546
+167,Oscar Otte,Germany,GER,317,129,2017-10-16,5,4,474
+168,Luca Vanni,Italy,ITA,317,100,2015-05-11,-7,-18,560
+169,Henri Laaksonen,Switzerland,SUI,311,93,2017-08-07,6,2,611
+170,Christopher Eubanks,United States,USA,307,147,2019-04-15,-4,-15,378
+171,Pedja Krstin,Serbia,SRB,305,159,2016-05-09,6,3,356
+172,Brayden Schnur,Canada,CAN,303,92,2019-08-19,1,-7,602
+173,Horacio Zeballos,Argentina,ARG,300,39,2013-03-04,6,0,1027
+174,Nikola Milojevic,Serbia,SRB,300,129,2021-04-05,-6,-21,582
+175,Alexey Vatutin,Russian Federation,RUS,298,136,2018-07-02,-1,-12,410
+176,Andrea Arnaboldi,Italy,ITA,297,153,2015-10-12,4,3,367
+177,Kamil Majchrzak,Poland,POL,293,83,2019-09-23,4,1,690
+178,Nicolas Kicker,Argentina,ARG,285,78,2017-06-12,5,0,684
+179,Sebastian Ofner,Austria,AUT,285,126,2019-05-06,5,2,486
+180,Aleksandr Nedovyesov,Kazakhstan,KAZ,283,72,2014-04-21,2,-8,666
+181,Roberto Quiroz,Ecuador,ECU,281,172,2019-03-18,5,1,311
+182,Daniel Brands,Germany,GER,278,51,2013-08-19,-11,-37,896
+183,Andrej Martin,Slovakia,SVK,277,93,2020-02-10,6,2,768
+184,Mohamed Safwat,Egypt,EGY,276,130,2020-02-10,9,4,463
+185,Yasutaka Uchiyama,Japan,JPN,275,78,2019-11-04,3,0,735
+186,James Ward,United Kingdom,GBR,273,89,2015-07-13,4,-1,573
+187,Ernesto Escobedo,United States,USA,272,67,2017-07-17,7,0,695
+188,Blaz Rola,Slovenia,SLO,272,78,2015-01-05,7,1,669
+189,Daniel Gimeno Traver,Spain,ESP,271,48,2013-03-18,-13,-36,998
+190,Nicolas Mahut,France,FRA,270,37,2014-05-05,6,1,1122
+191,Hiroki Moriya,Japan,JPN,268,143,2015-01-05,-13,-33,383
+192,Daniel Evans,United Kingdom,GBR,266,26,2021-02-08,6,1,1825
+193,John Patrick Smith,Australia,AUS,264,108,2015-09-28,6,0,490
+194,Yosuke Watanuki,Japan,JPN,263,171,2019-03-18,-9,-18,296
+195,Stephane Robert,France,FRA,262,50,2016-10-24,9,3,926
+196,Maxime Janvier,France,FRA,262,170,2019-09-30,7,2,310
+197,Kenny De Schepper,France,FRA,261,62,2014-04-07,9,3,737
+198,Darian King,Barbados,BAR,260,106,2017-05-08,4,0,523
+199,Stefano Napolitano,Italy,ITA,254,152,2017-06-12,8,0,360
+200,Adam Pavlasek,Czech Republic,CZE,251,72,2017-01-09,8,-1,704
+201,Tommy Robredo,Spain,ESP,251,5,2006-08-28,9,2,2770
+202,Tommy Paul,United States,USA,251,51,2021-03-08,-2,-13,1155
+203,Matteo Donati,Italy,ITA,248,159,2015-07-27,11,2,331
+204,Arthur De Greef,Belgium,BEL,248,113,2017-06-19,12,2,479
+205,Viktor Troicki,Serbia,SRB,247,12,2011-06-06,7,0,2015
+206,Blaz Kavcic,Slovenia,SLO,246,68,2012-08-06,7,0,685
+207,Rudolf Molleker,Germany,GER,246,146,2019-07-29,-10,-21,382
+208,Ze Zhang,China,CHN,246,148,2013-05-27,9,1,374
+209,Zdenek Kolar,Czech Republic,CZE,238,208,2018-08-27,15,3,300
+210,Federico Gaio,Italy,ITA,236,124,2020-02-03,15,2,534
+211,Sergio Gutierrez Ferrol,Spain,ESP,236,156,2018-08-13,-52,-115,361
+212,Kimmer Coppejans,Belgium,BEL,234,97,2015-06-22,8,-10,534
+213,Tobias Kamke,Germany,GER,234,64,2011-01-31,13,0,744
+214,Go Soeda,Japan,JPN,231,47,2012-07-23,16,1,888
+215,Filip Horansky,Slovakia,SVK,231,161,2019-05-20,-14,-31,413
+216,Calvin Hemery,France,FRA,229,116,2018-04-30,15,1,474
+217,Jurij Rodionov,Austria,AUT,229,139,2021-03-01,15,1,531
+218,Duck Hee Lee,"Korea, Republic of",KOR,229,130,2017-04-10,16,2,440
+219,Enrique Lopez Perez,Spain,ESP,228,154,2018-07-16,-27,-45,367
+220,Marcelo Arevalo,El Salvador,ESA,225,139,2018-07-02,16,2,401
+221,Daniel Elahi Galan Riveros,Colombia,COL,224,110,2021-04-05,14,-1,739
+222,Lorenzo Giustino,Italy,ITA,224,127,2019-08-12,-31,-50,444
+223,Viktor Galovic,Italy,ITA,223,173,2018-05-14,14,1,324
+224,Joao Domingues,Portugal,POR,223,150,2020-02-24,16,5,378
+225,Thomaz Bellucci,Brazil,BRA,222,21,2010-07-26,14,3,1732
+226,Gian Marco Moroni,Italy,ITA,222,209,2020-08-24,-11,-24,268
+227,Facundo Arguello,Argentina,ARG,221,104,2014-04-14,-22,-37,562
+228,Mitchell Krueger,United States,USA,216,159,2019-02-18,16,2,348
+229,Kevin Krawietz,Germany,GER,216,211,2018-12-17,-18,-33,249
+230,Dustin Brown,Germany,GER,215,64,2016-10-10,15,1,778
+231,Tallon Griekspoor,Netherlands,NED,215,138,2020-09-14,-3,-16,532
+232,Guilherme Clezar,Brazil,BRA,214,153,2015-08-03,15,1,334
+233,Jay Clarke,United Kingdom,GBR,213,153,2019-07-22,-15,-32,361
+234,James Duckworth,Australia,AUS,206,71,2020-02-17,7,-10,806
+235,Soon Woo Kwon,"Korea, Republic of",KOR,206,69,2020-03-02,13,-5,910
+236,Dudi Sela,Israel,ISR,205,29,2009-07-20,18,1,1397
+237,Alejandro Davidovich Fokina,Spain,ESP,203,51,2021-03-01,-10,-30,1144
+238,Gleb Sakharov,France,FRA,202,153,2018-01-08,-19,-43,364
+239,Jo Wilfried Tsonga,France,FRA,200,5,2012-02-27,16,0,5230
+240,Andy Murray,United Kingdom,GBR,200,1,2016-11-07,16,0,12685
+241,Christian Harrison,United States,USA,200,198,2018-07-02,16,0,293
+242,Thiemo De Bakker,Netherlands,NED,199,40,2010-07-19,-13,-32,1010
+243,Filip Peliwo,Canada,CAN,198,161,2018-05-21,15,-1,347
+244,Gerald Melzer,Austria,AUT,192,68,2016-11-21,19,0,728
+245,Nicola Kuhn,Spain,ESP,190,174,2019-10-07,23,4,292
+246,Evgeny Karlovskiy,Russian Federation,RUS,190,211,2019-06-17,-13,-38,255
+247,Norbert Gombos,Slovakia,SVK,189,80,2017-10-02,17,0,829
+248,Donald Young,United States,USA,183,38,2012-02-27,22,1,1039
+249,Cem Ilkel,Turkey,TUR,183,195,2020-03-02,-28,-54,324
+250,Uladzimir Ignatik,Belarus,BLR,183,129,2017-06-19,28,6,424
+251,Roberto Cid,Dominican Republic,DOM,181,211,2020-09-14,15,-7,266
+252,Attila Balazs,Hungary,HUN,180,76,2020-03-02,-65,-97,784
+253,Santiago Giraldo,Colombia,COL,178,28,2014-09-29,20,0,1230
+254,Jc Aragone,United States,USA,171,223,2018-12-24,-31,-64,235
+255,Mikael Ymer,Sweden,SWE,170,67,2020-03-02,19,-8,839
+256,Florian Mayer,Germany,GER,168,18,2011-06-06,30,0,1735
+257,Dennis Novikov,United States,USA,168,119,2016-08-15,30,0,508
+258,Daniel Masur,Germany,GER,168,203,2017-06-19,9,-20,330
+259,Saketh Myneni,India,IND,166,137,2016-09-12,0,-30,438
+260,Alexandr Dolgopolov,Ukraine,UKR,165,13,2012-01-16,32,0,2030
+261,Benjamin Bonzi,France,FRA,162,124,2021-03-22,37,2,618
+262,Kevin King,United States,USA,159,162,2018-05-07,39,0,349
+263,Gastao Elias,Portugal,POR,159,57,2016-10-24,41,2,831
+264,Nino Serdarusic,Croatia,CRO,158,192,2018-08-06,-42,-77,300
+265,Mathias Bourgue,France,FRA,158,140,2017-04-24,7,-22,415
+266,Bernabe Zapata Miralles,Spain,ESP,153,142,2021-02-08,40,1,512
+267,Jose Hernandez,Dominican Republic,DOM,152,179,2015-08-03,40,2,267
+268,Pedro Cachin,Argentina,ARG,152,166,2015-09-14,-30,-70,307
+269,Johan Sebastien Tatlot,France,FRA,151,226,2018-09-17,-18,-57,248
+270,Gianluca Mager,Italy,ITA,151,77,2020-02-24,7,-26,843
+271,Mario Vilella Martinez,Spain,ESP,148,170,2020-08-31,-19,-59,400
+272,Ricardo Ojeda Lara,Spain,ESP,146,171,2017-10-09,38,1,316
+273,Liam Broady,United Kingdom,GBR,144,148,2021-04-12,39,2,501
+274,Yunseong Chung,"Korea, Republic of",KOR,143,233,2019-07-22,-12,-50,193
+275,Elliot Benchetrit,France,FRA,142,198,2020-02-10,18,-22,264
+276,Danilo Petrovic,Serbia,SRB,140,137,2020-10-19,12,-28,470
+277,Zhe Li,China,CHN,140,193,2019-11-11,-24,-66,261
+278,Victor Estrella,Dominican Republic,DOM,138,43,2015-07-13,41,1,976
+279,Federico Coria,Argentina,ARG,138,83,2021-03-15,18,-23,878
+280,Max Purcell,Australia,AUS,138,204,2020-02-10,2,-36,282
+281,Goncalo Oliveira,Portugal,POR,138,194,2017-12-25,15,-24,268
+282,Kaichi Uchida,Japan,JPN,137,237,2019-07-01,9,-29,196
+283,Carlos Taberner,Spain,ESP,135,128,2021-02-08,47,3,541
+284,Enzo Couacaud,France,FRA,135,164,2019-07-29,27,-8,381
+285,Lucas Miedler,Austria,AUT,135,201,2018-10-15,-76,-115,270
+286,Evan King,United States,USA,134,185,2018-04-23,48,3,305
+287,Laurynas Grigelis,Lithuania,LTU,134,183,2012-07-09,16,-24,278
+288,Jurgen Melzer,Austria,AUT,133,8,2011-04-18,40,0,3055
+289,Akira Santillan,Australia,AUS,133,144,2017-11-13,42,1,392
+290,Roberto Marcora,Italy,ITA,131,150,2020-02-17,-14,-46,375
+291,Matteo Viola,Italy,ITA,130,118,2013-03-18,-2,-37,480
+292,Jan Choinski,Germany,GER,128,234,2018-04-16,-23,-58,233
+293,Vaclav Safranek,Czech Republic,CZE,127,191,2017-11-06,40,-4,281
+294,Scott Griekspoor,Netherlands,NED,127,205,2018-08-06,-29,-62,275
+295,Sasi Kumar Mukund,India,IND,126,229,2019-10-07,41,-3,213
+296,Thai Son Kwiatkowski,United States,USA,126,181,2020-02-03,-15,-48,297
+297,Maverick Banes,Australia,AUS,125,216,2018-08-27,-36,-69,258
+298,Tsung Hua Yang,"Taiwan, Province of China",TPE,124,164,2012-05-14,2,-36,320
+299,Ante Pavic,Croatia,CRO,119,132,2014-10-13,71,5,429
+300,Andrea Collarini,Argentina,ARG,118,186,2014-06-09,22,-18,339
+301,Alexander Sarkissian,United States,USA,117,157,2016-04-04,52,-4,362
+302,Tomislav Brkic,Bosnia and Herzegovina,BIH,117,212,2014-10-06,7,-30,237
+303,Joris De Loore,Belgium,BEL,115,174,2016-10-17,57,-3,328
+304,Aldin Setkic,Bosnia and Herzegovina,BIH,115,165,2017-10-16,38,-12,321
+305,Martin Cuevas,Uruguay,URU,106,271,2018-04-09,21,-28,194
+306,Yibing Wu,China,CHN,105,298,2019-03-18,50,-14,164
+307,Di Wu,China,CHN,104,140,2016-04-25,40,-20,409
+308,Marcos Giron,United States,USA,103,70,2021-01-04,49,-16,894
+309,Tristan Lamasine,France,FRA,102,181,2015-08-03,66,-8,296
+310,Collin Altamirano,United States,USA,101,267,2019-06-24,-27,-72,173
+311,Mate Valkusz,Hungary,HUN,98,242,2018-12-24,-69,-117,216
+312,Alejandro Gonzalez,Colombia,COL,98,70,2014-06-09,85,-1,723
+313,Ulises Blanch,United States,USA,95,236,2020-10-12,32,-30,247
+314,Jelle Sels,Netherlands,NED,95,260,2018-12-17,-54,-100,196
+315,Carlos Gomez Herrera,Spain,ESP,93,268,2018-05-07,88,0,198
+316,Stefan Kozlov,United States,USA,93,115,2017-02-20,89,0,509
+317,Tim Puetz,Germany,GER,90,165,2015-02-02,97,0,309
+318,Frank Dancevic,Canada,CAN,86,65,2007-09-10,99,-3,783
+319,Roberto Ortega Olmedo,Spain,ESP,86,232,2019-11-18,-34,-83,211
+320,Evan Song,United States,USA,85,314,2019-01-07,82,-9,124
+321,Vincent Millot,France,FRA,85,135,2016-10-10,106,-2,442
+322,Dragos Dima,Romania,ROU,84,279,2018-09-24,-38,-88,183
+323,Sebastian Fanselow,Germany,GER,81,282,2019-07-15,31,-39,144
+324,Frederico Ferreira Silva,Portugal,POR,80,173,2021-03-08,-74,-129,415
+325,Maximilian Neuchrist,Austria,AUT,79,244,2018-07-30,-26,-81,229
+326,Yusuke Takahashi,Japan,JPN,78,238,2017-08-07,113,-8,216
+327,Bradley Mousley,Australia,AUS,77,259,2018-02-26,126,-4,195
+328,Roy Smith,United States,USA,76,310,2019-09-23,72,-18,132
+329,Dimitar Kuzmanov,Bulgaria,BUL,76,240,2021-04-12,-80,-134,269
+330,Mikael Torpegaard,Denmark,DEN,71,166,2020-01-06,150,-3,376
+331,Renzo Olivo,Argentina,ARG,71,78,2017-01-09,174,3,693
+332,Roman Safiullin,Russian Federation,RUS,71,164,2021-02-22,-86,-143,420
+333,Tak Khunn Wang,France,FRA,70,265,2014-02-03,34,-45,172
+334,Andrea Pellegrino,Italy,ITA,70,274,2020-10-19,167,1,205
+335,Borna Gojo,Croatia,CRO,69,217,2020-10-26,126,-9,278
+336,David Guez,France,FRA,69,116,2010-07-05,3,-58,449
+337,Renta Tokuda,Japan,JPN,68,289,2018-08-27,51,-35,171
+338,Zsombor Piros,Hungary,HUN,67,330,2019-07-15,46,-38,108
+339,Miljan Zekic,Serbia,SRB,67,188,2016-07-11,-49,-99,302
+340,Sumit Nagal,India,IND,67,122,2020-08-24,138,-8,548
+341,Hugo Grenier,France,FRA,66,237,2020-03-02,74,-24,240
+342,Alexandre Muller,France,FRA,64,193,2021-04-12,-1,-63,358
+343,Andrew Harris,Australia,AUS,63,159,2019-11-11,91,-23,328
+344,Pavel Kotov,Russian Federation,RUS,62,245,2020-01-06,50,-38,227
+345,Marcelo Tomas Barrios Vera,Chile,CHI,62,236,2021-03-22,-32,-80,270
+346,Dayne Kelly,Australia,AUS,62,252,2017-10-23,77,-26,198
+347,Alex Molcan,Slovakia,SVK,60,275,2021-04-12,21,-54,219
+348,Aleksandar Vukic,Australia,AUS,60,183,2020-10-19,136,-13,345
+349,Sergey Betov,Belarus,BLR,60,340,2011-08-01,13,-57,125
+350,Juan Pablo Varillas Patino Samudio,Peru,PER,60,135,2020-03-02,-26,-75,471
+351,Dmitry Popko,Kazakhstan,KAZ,59,165,2020-08-31,152,-9,396
+352,Blake Ellis,Australia,AUS,59,348,2019-02-11,104,-21,92
+353,Carlos Boluda Purkiss,Spain,ESP,59,254,2018-05-21,-48,-98,220
+354,Zihao Xia,China,CHN,58,353,2019-01-07,186,-2,76
+355,Antoine Escoffier,France,FRA,58,327,2020-02-03,114,-19,128
+356,Jared Hiltzik,United States,USA,58,339,2018-03-19,79,-28,132
+357,Franco Skugor,Croatia,CRO,57,145,2016-04-25,193,0,402
+358,Makoto Ochi,Japan,JPN,57,343,2019-04-29,27,-48,122
+359,Denis Yevseyev,Kazakhstan,KAZ,57,280,2019-12-09,-65,-106,163
+360,Zhizhen Zhang,China,CHN,56,136,2020-02-10,135,-15,397
+361,Ryan Shane,United States,USA,54,333,2019-07-29,139,-15,104
+362,Luke Saville,Australia,AUS,54,152,2015-02-23,111,-22,331
+363,Gonzalo Escobar,Ecuador,ECU,53,281,2015-06-15,111,-22,170
+364,Jeffrey John Wolf,United States,USA,53,120,2020-09-14,191,-3,519
+365,Tung Lin Wu,"Taiwan, Province of China",TPE,53,213,2020-02-10,124,-19,274
+366,Ji Sung Nam,"Korea, Republic of",KOR,51,236,2019-08-12,-16,-71,205
+367,Andrea Basso,Italy,ITA,51,301,2018-04-23,131,-19,162
+368,Teymuraz Gabashvili,Russian Federation,RUS,50,43,2016-02-01,25,-51,1226
+369,Emilio Gomez,Ecuador,ECU,49,143,2019-10-14,-10,-70,424
+370,Daniel Altmaier,Germany,GER,48,122,2020-10-12,146,-17,516
+371,Marc Andrea Huesler,Switzerland,SUI,48,142,2021-01-25,47,-41,498
+372,Jan Satral,Czech Republic,CZE,48,136,2016-10-03,171,-11,432
+373,Jose Rubin Statham,New Zealand,NZL,48,279,2013-02-25,211,-4,170
+374,Andrew Whittington,Australia,AUS,47,160,2017-03-20,220,-3,368
+375,Benjamin Hassan,Germany,GER,47,293,2019-08-12,62,-39,141
+376,Harri Heliovaara,Finland,FIN,46,194,2011-12-19,-32,-79,253
+377,Pedro Sakamoto,Brazil,BRA,45,284,2020-02-24,108,-28,181
+378,Petros Chrysochos,Cyprus,CYP,44,370,2021-04-12,54,-42,121
+379,Jeremy Jahn,Germany,GER,43,197,2017-01-30,43,-45,280
+380,Liam Caruana,United States,USA,43,375,2018-02-12,209,-8,109
+381,Daniel Munoz De La Nava,Spain,ESP,43,68,2016-02-29,96,-32,732
+382,Alessandro Bega,Italy,ITA,42,259,2016-07-25,-74,-108,196
+383,Oriol Roca Batalla,Spain,ESP,41,193,2015-08-03,-140,-174,249
+384,Viktor Durasovic,Norway,NOR,41,298,2019-10-14,137,-23,137
+385,Emil Ruusuvuori,Finland,FIN,41,74,2021-04-12,-20,-74,959
+386,Khumoun Sultanov,Uzbekistan,UZB,41,299,2020-02-17,170,-15,139
+387,Johannes Haerteis,Germany,GER,40,300,2020-11-23,81,-37,153
+388,Guillermo Olaso,Spain,ESP,40,167,2011-07-18,174,-15,326
+389,Yan Bai,China,CHN,39,200,2016-03-21,-51,-88,260
+390,Alexis Galarneau,Canada,CAN,39,386,2019-06-17,164,-17,83
+391,Andreas Haider Maurer,Austria,AUT,38,47,2015-04-20,281,0,946
+392,Arjun Kadhe,India,IND,37,328,2018-08-27,0,-64,139
+393,Illya Marchenko,Ukraine,UKR,36,49,2016-09-26,292,0,905
+394,Tom Jomby,France,FRA,36,313,2018-11-12,-54,-91,147
+395,Julian Lenz,Germany,GER,35,227,2020-01-06,192,-16,230
+396,Shuichi Sekiguchi,Japan,JPN,35,259,2014-05-05,265,-5,184
+397,Ivan Gakhov,Russian Federation,RUS,35,275,2017-10-09,-79,-104,177
+398,Joao Lucas Magalhaes Hueb De Menezes,Brazil,BRA,35,172,2020-02-17,-47,-87,353
+399,Sekou Bangoura,United States,USA,33,213,2016-10-31,-25,-78,245
+400,Joao Souza,Brazil,BRA,33,69,2015-04-06,-86,-108,687
+401,N Sriram Balaji,India,IND,31,287,2017-06-19,324,0,172
+402,Joao Monteiro,Portugal,POR,31,237,2017-11-13,-82,-106,218
+403,Chien Hsun Lo,"Taiwan, Province of China",TPE,30,403,2018-12-31,271,-8,49
+404,Alexander Ward,United Kingdom,GBR,30,242,2016-06-06,329,0,215
+405,Michael Redlicki,United States,USA,30,313,2019-11-18,8,-61,129
+406,Youssef Hossam,Egypt,EGY,29,291,2017-12-11,-40,-86,169
+407,Brydan Klein,Australia,AUS,29,169,2015-09-28,213,-17,428
+408,Rigele Te,China,CHN,29,395,2018-10-22,-10,-69,101
+409,Ivan Nedelko,Russian Federation,RUS,29,235,2018-07-23,-129,-146,238
+410,Marinko Matosevic,Australia,AUS,28,39,2013-02-25,350,0,955
+411,Jacob Grills,Australia,AUS,28,368,2019-08-05,64,-47,99
+412,Tim Van Rijthoven,Netherlands,NED,28,285,2020-01-13,64,-47,166
+413,Jordi Samper Montana,Spain,ESP,28,179,2016-08-22,-90,-108,315
+414,Gerard Granollers,Spain,ESP,27,217,2013-08-05,379,2,221
+415,Alen Avidzba,Russian Federation,RUS,27,380,2019-04-29,27,-58,101
+416,Steven Diez,Canada,CAN,27,134,2019-11-18,-68,-97,418
+417,Andres Artunedo Martinavarr,Spain,ESP,26,293,2014-03-03,-102,-114,160
+418,Zizou Bergs,Belgium,BEL,26,265,2021-04-05,-32,-79,234
+419,Wishaya Trongcharoenchaikul,Thailand,THA,26,395,2018-10-08,67,-46,100
+420,Geoffrey Blancaneaux,France,FRA,26,264,2020-03-02,-8,-65,190
+421,Sadio Doumbia,France,FRA,26,250,2016-11-07,-50,-87,205
+422,Cristian Rodriguez,Colombia,COL,25,362,2018-04-09,89,-41,123
+423,Arthur Rinderknech,France,FRA,25,127,2021-03-15,-40,-80,593
+424,Igor Sijsling,Netherlands,NED,24,52,2014-02-17,57,-50,910
+425,Markus Eriksson,Sweden,SWE,24,277,2019-08-19,13,-62,176
+426,Corentin Denolly,France,FRA,24,289,2019-11-25,-68,-95,147
+427,Tobias Simon,Germany,GER,24,391,2020-03-16,55,-50,100
+428,Lloyd Glasspool,United Kingdom,GBR,24,282,2016-07-25,15,-61,175
+429,Javier Barranco Cosano,Spain,ESP,24,273,2019-08-19,-154,-154,178
+430,Marvin Netuschil,Germany,GER,23,306,2017-06-19,97,-40,158
+431,Albano Olivetti,France,FRA,23,161,2014-05-26,-42,-79,344
+432,Sidharth Rawat,India,IND,23,430,2019-01-07,262,-12,80
+433,Frederik Nielsen,Denmark,DEN,23,190,2011-08-15,362,-2,294
+434,Nam Hoang Ly,Viet Nam,VIE,22,385,2018-11-12,-30,-71,105
+435,Takanyi Garanganga,Zimbabwe,ZIM,22,288,2014-09-22,73,-45,161
+436,Enrico Dalla Valle,Italy,ITA,22,404,2019-08-12,196,-22,86
+437,Karue Sell,Brazil,BRA,21,371,2018-07-30,-4,-65,113
+438,Karim Mohamed Maamoun,Egypt,EGY,21,225,2017-10-02,-62,-89,224
+439,Maximo Gonzalez,Argentina,ARG,20,58,2009-07-06,422,0,992
+440,William Blumberg,United States,USA,20,438,2019-01-07,436,1,44
+441,Lamine Ouahab,Algeria,ALG,20,114,2009-09-21,18,-59,571
+442,Tom Fawcett,United States,USA,20,440,2019-01-07,139,-32,61
+443,Fabrizio Ornago,Italy,ITA,20,355,2018-11-05,-70,-92,120
+444,Austin Krajicek,United States,USA,20,94,2015-10-26,385,-2,608
+445,Martin Redlicki,United States,USA,20,381,2019-04-29,159,-29,93
+446,Harrison Adams,United States,USA,20,442,2019-02-18,107,-37,58
+447,Hernan Casanova,Argentina,ARG,20,255,2018-05-21,-84,-97,220
+448,Miliaan Niesten,Netherlands,NED,19,431,2013-04-29,284,-11,93
+449,Thiago Seyboth Wild,Brazil,BRA,19,106,2020-09-14,83,-42,629
+450,Edan Leshem,Israel,ISR,19,249,2017-12-18,46,-52,207
+451,Bastian Malla,Chile,CHI,18,362,2015-12-14,-10,-67,123
+452,Patrick Kypson,United States,USA,18,449,2019-02-18,375,-4,42
+453,Gregoire Jacq,France,FRA,18,332,2018-10-29,-110,-108,136
+454,Flavio Cipolla,Italy,ITA,17,70,2012-04-23,228,-20,736
+455,Andrea Vavassori,Italy,ITA,17,278,2020-02-10,409,-3,148
+456,Ji Hoon Son,"Korea, Republic of",KOR,17,452,2019-04-01,172,-27,44
+457,Manuel Guinard,France,FRA,17,284,2020-08-31,-111,-108,159
+458,Benjamin Mitchell,Australia,AUS,17,204,2015-03-02,264,-15,241
+459,Olukayode Alafia Damina Ayeni,United States,USA,17,436,2019-07-22,167,-27,44
+460,Patricio Heras,Argentina,ARG,17,269,2013-09-23,110,-37,164
+461,Antoine Cornut Chauvinc,France,FRA,17,408,2019-06-17,22,-57,88
+462,Yannick Jankovits,France,FRA,17,226,2015-09-14,-72,-85,226
+463,Harry Bourchier,Australia,AUS,17,279,2020-01-13,271,-13,145
+464,Louis Wessels,Germany,GER,16,320,2018-11-26,-132,-116,138
+465,Edoardo Eremin,Italy,ITA,16,292,2016-08-01,182,-26,167
+466,Evan Furness,France,FRA,16,331,2021-04-05,-19,-67,148
+467,Christopher Heyman,Belgium,BEL,16,258,2018-02-19,-86,-92,197
+468,Ronnie Schneider,United States,USA,16,406,2018-09-10,-1,-62,97
+469,Michael Vrbensky,Czech Republic,CZE,15,302,2020-09-28,22,-57,163
+470,Omar Jasika,Australia,AUS,15,239,2017-04-03,421,-3,214
+471,Altug Celikbilek,Turkey,TUR,15,251,2021-04-12,-35,-71,247
+472,Juan Ignacio Galarza,Argentina,ARG,15,334,2016-05-16,15,-57,140
+473,Orlando Luz,Brazil,BRA,15,292,2019-11-04,-95,-94,152
+474,Konstantin Kravchuk,Russian Federation,RUS,15,78,2016-11-07,-105,-99,707
+474,Alejandro Gomez Gb42,Colombia,COL,15,352,2017-03-20,92,-40,133
+476,Fabien Reboul,France,FRA,15,327,2018-12-24,-149,-119,134
+477,Manuel Pena Lopez,Argentina,ARG,14,395,2020-02-17,120,-36,89
+478,Riccardo Bellotti,Italy,ITA,14,199,2017-05-08,115,-36,267
+479,Manuel Sanchez,Mexico,MEX,14,455,2019-03-18,515,2,62
+480,Lucas Catarina,Monaco,MON,14,341,2018-06-11,27,-54,135
+481,Robin Kern,Germany,GER,13,350,2013-10-07,295,-14,119
+482,Camilo Ugo Carabelli,Argentina,ARG,13,335,2021-04-12,-130,-108,142
+483,Felipe Mantilla,Colombia,COL,13,474,2019-04-08,364,-8,67
+483,Alexander Lazov,Bulgaria,BUL,13,324,2015-06-29,-21,-65,147
+485,Aslan Karatsev,Russian Federation,RUS,13,27,2021-03-22,-164,-123,1918
+486,Chun Hsin Tseng,"Taiwan, Province of China",TPE,13,272,2020-02-24,-46,-72,205
+487,Yuta Shimizu,Japan,JPN,13,313,2020-03-02,-126,-105,130
+488,Francesco Forti,Italy,ITA,0,393,2019-07-22,0,,95
+489,Raul Brancaccio,Italy,ITA,13,270,2019-08-19,-194,-149,184
+490,Alex Rybakov,United States,USA,12,452,2021-04-12,47,-48,87
+491,Peter Torebko,Germany,GER,12,182,2012-07-16,-111,-96,275
+492,Evan Hoyt,United Kingdom,GBR,12,319,2019-09-16,-72,-77,126
+493,Jacopo Berrettini,Italy,ITA,12,389,2019-06-24,-67,-75,87
+494,Thomas Fancutt,Australia,AUS,12,491,2019-01-28,112,-37,56
+495,Pavel Krainik,Canada,CAN,12,489,2019-04-08,189,-25,46
+496,Gijs Brouwer,Netherlands,NED,12,342,2019-08-05,-132,-104,116
+497,Riccardo Balzerani,Italy,ITA,12,469,2020-01-13,33,-50,77
+498,Pietro Rondoni,Italy,ITA,11,354,2018-08-27,-121,-98,124
+499,Marc Sieber,Germany,GER,11,236,2017-02-27,108,-38,217
+500,Ruan Roelofse,South Africa,RSA,11,357,2012-02-27,326,-11,116
+501,Jules Okala,France,FRA,11,338,2020-03-02,3,-57,117
+502,Ti Chen,"Taiwan, Province of China",TPE,11,184,2015-09-14,127,-33,270
+503,Riccardo Bonadio,Italy,ITA,11,277,2020-09-14,-186,-129,194
+504,Matteo Martineau,France,FRA,11,402,2019-08-12,-80,-77,105
+505,Hiroyasu Ehara,Japan,JPN,11,330,2015-09-21,-15,-61,141
+505,Giovanni Fonio,Italy,ITA,11,473,2021-04-05,43,-47,81
+507,Cedrik Marcel Stebe,Germany,GER,10,71,2012-02-13,525,0,688
+508,Nathan Pasha,United States,USA,10,507,2019-01-07,525,0,51
+509,Kirill Kivattsev,Russian Federation,RUS,10,479,2019-05-27,142,-32,50
+510,Hugo Nys,Monaco,MON,10,327,2019-07-29,524,0,131
+511,Ben Fatael,Israel,ISR,10,416,2019-06-24,68,-43,72
+511,Lucas Gerch,Germany,GER,10,432,2020-02-10,187,-25,81
+511,Abhinav Sanjeev Shanmugam,India,IND,10,509,2019-01-14,333,-11,21
+514,Luca Giacomini,Italy,ITA,10,462,2019-06-24,153,-30,51
+515,Inigo Cervantes Huegun,Spain,ESP,10,56,2016-03-21,524,0,837
+516,Gerardo Lopez Villasenor,Mexico,MEX,10,505,2020-02-17,232,-19,57
+517,Lucas Gomez,Mexico,MEX,10,463,2016-04-04,198,-23,86
+517,Jeremy Beale,Australia,AUS,10,459,2018-10-08,-54,-68,78
+519,Germain Gigounon,Belgium,BEL,10,185,2015-08-17,-164,-110,258
+520,Lukas Klein,Slovakia,SVK,10,266,2021-04-05,72,-41,234
+521,Pol Toledo Bague,Spain,ESP,10,372,2018-08-06,-90,-77,114
+522,Yannick Mertens,Belgium,BEL,10,179,2015-08-17,-140,-96,286
+523,Juan Pablo Ficovich,Argentina,ARG,10,196,2020-08-31,-77,-73,311
+524,Sebastian Korda,United States,USA,10,62,2021-04-12,67,-41,1041
+525,Remi Boutillier,France,FRA,9,235,2015-05-25,-23,-60,206
+526,Yecong He,China,CHN,9,492,2016-06-27,238,-19,74
+527,Brandon Nakashima,United States,USA,8,133,2021-02-08,257,-18,525
+527,Andrej Glvac,Slovakia,SVK,8,522,2019-04-15,495,-3,12
+529,Daniel Michalski,Poland,POL,8,421,2020-02-24,464,-4,93
+529,Artem Smirnov,Ukraine,UKR,8,226,2016-05-09,59,-43,233
+531,Farrukh Dustov,Uzbekistan,UZB,8,98,2015-02-23,560,0,560
+532,Seong Chan Hong,"Korea, Republic of",KOR,8,343,2016-10-24,71,-41,134
+532,Brandon Holt,United States,USA,8,456,2019-07-29,199,-22,58
+532,Pawel Cias,Poland,POL,8,393,2018-06-25,174,-26,104
+532,Yen Hsun Lu,"Taiwan, Province of China",TPE,8,33,2010-11-01,563,0,1244
+536,Pavel Nejedly,Czech Republic,CZE,8,452,2020-02-24,130,-32,73
+537,Botic Van De Zandschulp,Netherlands,NED,8,145,2021-02-22,15,-49,492
+538,Evgeny Tyurnev,Russian Federation,RUS,8,293,2021-03-15,-203,-123,184
+539,Tigre Hank,Mexico,MEX,8,416,2015-11-23,331,-12,102
+540,Nicolaas Scholtz,South Africa,RSA,8,320,2016-08-08,226,-20,146
+541,Danny Thomas,United States,USA,8,541,2018-12-31,462,-4,28
+542,Daniel Nguyen,United States,USA,7,189,2015-07-13,80,-38,259
+543,Marsel Ilhan,Turkey,TUR,7,77,2015-03-02,-30,-59,657
+543,Michal Przysiezny,Poland,POL,7,57,2014-01-27,618,1,810
+545,Shinji Hazawa,Japan,JPN,7,514,2019-01-14,349,-11,20
+545,Nicolas Meister,United States,USA,7,263,2016-06-13,572,0,191
+545,Pruchya Isarow,Thailand,THA,7,545,2018-12-31,64,-42,49
+548,Christian Seraphim,Germany,GER,7,542,2019-07-29,520,-2,14
+548,John Mcnally,United States,USA,7,470,2019-07-29,424,-6,40
+548,Artem Dubrivnyy,Russian Federation,RUS,7,394,2019-11-18,16,-48,106
+551,Jannik Sinner,Italy,ITA,7,22,2021-04-12,219,-21,2369
+552,Gabor Borsos,Hungary,HUN,7,551,2019-01-14,322,-13,31
+553,Patrik Rikl,Czech Republic,CZE,7,392,2018-10-01,-102,-75,102
+554,Felipe Meligeni Rodrigues Alves,Brazil,BRA,7,227,2021-03-22,-21,-54,286
+554,Benjamin Lock,Zimbabwe,ZIM,7,391,2018-12-17,-163,-95,107
+554,Benjamin Sigouin,Canada,CAN,7,524,2019-07-15,373,-9,38
+557,Samuel Monette,Canada,CAN,7,424,2018-05-21,275,-15,90
+557,Xin Gao,China,CHN,7,434,2016-11-07,230,-19,91
+559,Jakub Paul,Switzerland,SUI,7,558,2019-01-14,158,-26,35
+560,Frederico Gil,Portugal,POR,7,62,2011-04-25,-235,-128,1038
+561,Jack Draper,United Kingdom,GBR,6,283,2020-08-24,-140,-82,159
+562,Agustin Velotti,Argentina,ARG,6,166,2013-09-16,262,-16,328
+563,Ergi Kirkin,Turkey,TUR,6,383,2021-01-25,76,-37,109
+564,Gianni Mina,France,FRA,6,219,2015-05-25,302,-14,216
+564,Yuuya Kibi,Japan,JPN,6,224,2017-02-06,479,-4,236
+566,Marko Miladinovic,Serbia,SRB,6,451,2020-01-13,-8,-50,70
+567,Nicolas Alvarez,Peru,PER,6,295,2020-01-06,13,-46,132
+567,Francesco Vilardo,Italy,ITA,6,455,2018-09-24,-97,-71,81
+569,Luis Patino,Mexico,MEX,6,567,2019-03-18,349,-11,42
+570,Fajing Sun,China,CHN,6,351,2020-02-10,93,-34,106
+571,Nicolae Frunza,Romania,ROU,6,442,2017-06-26,-45,-58,89
+572,Marco Bortolotti,Italy,ITA,6,355,2016-04-25,-114,-74,130
+573,Aziz Dougaz,Tunisia,TUN,6,356,2020-03-02,-165,-87,126
+574,Marko Djokovic,Serbia,SRB,5,571,2019-01-14,634,0,43
+574,Facundo Diaz Acosta,Argentina,ARG,5,396,2021-02-22,589,-1,106
+574,Vishnu Vardhan,India,IND,5,262,2012-09-10,634,0,178
+574,Sander Gille,Belgium,BEL,5,574,2018-12-31,634,0,52
+574,Luis David Martinez,"Venezuela, Bolivarian Republic of",VEN,5,390,2014-02-10,637,0,107
+579,Colin Sinclair,Australia,AUS,5,410,2019-08-05,-85,-66,82
+580,Sergey Fomin,Uzbekistan,UZB,5,576,2019-01-14,483,-4,41
+581,Manish Sureshkumar,India,IND,5,508,2018-11-19,-57,-59,68
+581,Pablo Vivero Gonzalez,Spain,ESP,5,283,2016-07-11,-21,-51,173
+583,Or Ram Harel,Israel,ISR,5,557,2018-07-02,130,-28,57
+583,Laurent Rochette,France,FRA,5,202,2012-10-08,73,-36,242
+583,Daniel Dutra Da Silva,Brazil,BRA,5,231,2009-05-18,81,-35,310
+586,Vladyslav Manafov,Ukraine,UKR,5,327,2017-02-20,-121,-73,146
+587,Alberto Romero De Avila Senise,Spain,ESP,5,583,2019-01-14,186,-23,37
+588,Sandro Ehrat,Switzerland,SUI,4,286,2019-09-09,14,-45,149
+589,Patrik Niklas Salminen,Finland,FIN,4,418,2020-03-02,-160,-83,89
+590,Skander Mansouri,Tunisia,TUN,4,303,2019-11-18,-61,-58,134
+591,Sanjar Fayziev,Uzbekistan,UZB,4,253,2017-07-17,-190,-90,199
+592,Alvaro Lopez San Martin,Spain,ESP,4,349,2017-01-30,-147,-79,136
+592,Maxime Cressy,France,FRA,4,153,2021-03-01,-144,-78,470
+594,Joao Lucas Reis Da Silva,Brazil,BRA,3,553,2019-11-25,-12,-49,58
+594,Nathaniel Lammons,United States,USA,3,591,2019-01-14,761,0,15
+594,Keenan Mayo,United States,USA,3,593,2019-01-14,761,0,8
+597,Baptiste Crepatte,France,FRA,3,276,2019-08-12,-295,-155,158
+597,Nik Razborsek,Slovenia,SLO,3,409,2018-12-17,-188,-89,92
+597,Oliver Crawford,United States,USA,3,529,2019-07-29,177,-24,43
+597,Takashi Saito,Japan,JPN,3,556,2015-06-15,-24,-51,59
+601,David Poljak,Czech Republic,CZE,3,415,2018-10-22,-182,-86,92
+601,Peter Heller,Germany,GER,3,271,2018-12-24,-330,-177,184
+601,Jonathan Kanar,France,FRA,3,491,2018-04-16,115,-30,70
+601,Alexander Erler,Austria,AUT,3,398,2018-12-03,-202,-94,99
+601,Yuki Mochiduki,Japan,JPN,3,566,2019-11-25,85,-33,42
+606,David Vega Hernandez,Spain,ESP,3,403,2014-07-21,159,-25,106
+606,Michael Geerts,Belgium,BEL,3,347,2019-12-02,-84,-61,127
+608,Axel Geller,Argentina,ARG,3,539,2019-08-05,73,-34,47
+608,Niki Kaliyanda Poonacha,India,IND,3,605,2019-01-14,37,-39,42
+608,Martins Podzus,Latvia,LAT,3,418,2020-02-17,-148,-76,95
+608,Peter Bothwell,Ireland,IRL,3,602,2019-08-05,29,-40,43
+612,Guy Orly Iradukunda,Burundi,BDI,3,610,2019-01-14,684,-1,24
+612,Ricardo Rodriguez,"Venezuela, Bolivarian Republic of",VEN,3,282,2014-06-09,-47,-52,165
+614,Gonzalo Villanueva,Argentina,ARG,3,375,2018-10-22,-219,-97,109
+614,Lorenzo Frigerio,Italy,ITA,3,375,2017-07-31,206,-20,117
+614,Mikhail Fufygin,Russian Federation,RUS,3,484,2012-04-30,-14,-47,69
+614,Antonio Massara,Italy,ITA,3,465,2016-08-22,0,-45,85
+618,Jumpei Yamasaki,Japan,JPN,3,446,2019-09-30,24,-40,71
+618,Yu Hsiou Hsu,"Taiwan, Province of China",TPE,3,379,2021-04-05,-47,-51,117
+620,Alexander Ritschard,Switzerland,SUI,3,296,2020-11-23,-148,-73,171
+620,Nick Chappell,United States,USA,3,345,2021-02-22,34,-38,128
+622,Bogdan Ionut Apostol,Romania,ROU,3,568,2018-12-24,-54,-52,55
+622,Walter Trusendi,Italy,ITA,3,299,2011-08-29,158,-24,173
+624,Danylo Kalenichenko,Ukraine,UKR,3,439,2020-01-13,-49,-51,74
+625,Trent Bryde,United States,USA,3,625,2018-12-31,308,-13,16
+625,Lenny Hampel,Austria,AUT,3,359,2017-07-31,5,-41,126
+625,Joao Pedro Sorgi,Brazil,BRA,3,251,2017-09-18,82,-31,201
+628,Evan Zhu,United States,USA,3,495,2019-10-14,45,-35,60
+629,Marc Giner,Spain,ESP,3,245,2013-04-29,-85,-56,194
+630,Eduard Esteve Lobato,Spain,ESP,3,353,2018-11-05,-258,-110,121
+631,Bruno Santanna,Brazil,BRA,3,337,2013-10-07,-220,-89,125
+632,Gonzalo Lama,Chile,CHI,2,160,2016-06-20,73,-32,348
+633,Moez Chargui,Tunisia,TUN,2,337,2018-12-24,-296,-126,128
+634,Tiago Cacao,Portugal,POR,2,394,2018-12-17,-238,-98,100
+635,Peter Kobelt,United States,USA,1,332,2016-05-16,-115,-63,143
+636,Stefano Baldoni,Italy,ITA,1,636,2018-12-31,126,-27,28
+636,William Griffith,United States,USA,1,636,2018-12-31,304,-14,15
+636,Nikolas Sanchez Izquierdo,Spain,ESP,1,343,2021-04-05,-23,-48,135
+636,Nuno Borges,Portugal,POR,1,332,2021-04-12,-181,-79,147
+636,Denys Molchanov,Ukraine,UKR,1,169,2015-01-05,254,-17,299
+641,Tadeas Paroulek,Czech Republic,CZE,1,531,2018-12-24,-110,-61,62
+641,Genaro Alberto Olivieri,Argentina,ARG,1,382,2020-02-17,-131,-66,95
+641,Tomas Martin Etcheverry,Argentina,ARG,1,222,2021-03-01,-192,-81,286
+641,Min Kyu Song,"Korea, Republic of",KOR,1,587,2019-05-20,-45,-49,50
+641,Matej Vocel,Czech Republic,CZE,1,641,2018-12-31,156,-24,27
+641,Ryan James Storrie,United Kingdom,GBR,1,626,2018-04-30,109,-28,41
+647,Rio Noguchi,Japan,JPN,1,397,2020-03-16,-240,-92,97
+647,Jeroen Vanneste,Belgium,BEL,1,314,2019-08-12,-222,-87,125
+647,Yaraslau Shyla,Belarus,BLR,1,306,2015-06-22,12,-39,156
+650,Linus Frost,Sweden,SWE,1,650,2018-12-31,296,-14,15
+650,Adrian Bodmer,Switzerland,SUI,1,455,2018-05-07,149,-24,82
+650,Suraj R Prabodh,India,IND,1,650,2018-12-31,228,-18,22
+653,Sora Fukuda,Japan,JPN,1,378,2017-11-13,24,-37,110
+653,Hong Kit Jack Wong,Hong Kong,HKG,1,653,2018-12-31,218,-19,22
+653,Jordan Correia Passos Do Carmo,Brazil,BRA,1,399,2018-12-17,-243,-91,97
+653,Stephan Gerritsen,Netherlands,NED,1,653,2018-12-31,57,-33,34
+657,Jaimee Floyd Angele,France,FRA,1,595,2019-04-22,52,-33,34
+657,Jie Cui,China,CHN,1,568,2019-11-04,159,-22,42
+657,Shintaro Imai,Japan,JPN,1,290,2020-01-06,-227,-86,137
+657,Deiton Baughman,United States,USA,1,341,2015-10-26,208,-19,137
+661,Niels Desein,Belgium,BEL,1,154,2015-03-02,77,-29,332
+661,Andrew Watson,United Kingdom,GBR,1,535,2019-08-12,-45,-46,48
+661,Michael Zhu,United States,USA,1,660,2019-01-14,121,-26,28
+664,Michael Look,Australia,AUS,1,323,2012-02-06,-79,-51,134
+664,Johan Nikles,Switzerland,SUI,1,457,2019-11-11,-129,-60,77
+664,Jose Pereira,Brazil,BRA,1,232,2015-09-14,-88,-53,207
+664,Jaume Pla Malfeito,Spain,ESP,1,501,2019-08-05,-146,-64,71
+664,Jack Findel Hawkins,United Kingdom,GBR,1,635,2018-12-03,-29,-42,43
+664,Felix Corwin,United States,USA,1,504,2020-11-09,71,-29,65
+664,Pascal Meis,Germany,GER,1,487,2018-05-21,-150,-65,73
+664,Sam Riffice,United States,USA,1,496,2019-07-01,63,-30,47
+672,Strong Kirchheimer,United States,USA,1,464,2020-03-02,-173,-69,74
+672,Oscar Jose Gutierrez,Brazil,BRA,1,363,2019-11-04,-285,-104,106
+672,Alessandro Petrone,Italy,ITA,1,397,2018-10-08,-256,-89,99
+672,Paul Oosterbaan,United States,USA,1,644,2019-08-12,97,-27,34
+676,Ryan Peniston,United Kingdom,GBR,1,359,2019-11-04,-104,-53,119
+677,Omar Salman,Belgium,BEL,1,457,2018-12-24,-220,-79,80
+677,Sebastien Boltz,France,FRA,1,276,2015-09-14,-184,-71,171
+677,Jordi Arconada,Argentina,ARG,1,405,2019-08-05,-165,-65,83
