@@ -12,10 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library("BradleyTerry2")
 library("data.table")
-match_outcomes <- read.csv('match_outcomes.csv')
-match_outcomes <- match_outcomes[-1,]
+# match_outcomes <- read.csv('match_outcomes.csv')
+# match_outcomes <- match_outcomes[-1,]
+matchups100 <- read.csv('matchups_atp100.csv')
+rownames(matchups100) <- matchups100$X
+matchups100 <- matchups100[-c(1)]
 
-head(match_outcomes)
+head(matchups100)
 ```
 
 ```{r}
@@ -43,7 +46,15 @@ for (i in seq(1,n)) {
 head(contingency_df)
 ```
 ```{r}
-df_length = 201930 #(factorial(n)) #/ (factorial(2) * factorial(n - 2))
+players[1]
+rownames(matchups100)[1]
+matchups100[rownames(matchups100)[1], players[1]]
+```
+
+```{r}
+n = dim(matchups100)[1]
+players = colnames(matchups100)
+df_length = 4005 #(factorial(n)) #/ (factorial(2) * factorial(n - 2))
 
 bt_data <- as.data.frame(matrix(0, (df_length), 4))
 colnames(bt_data) <- c("p1", "p2", "win1", "win2")
@@ -55,9 +66,8 @@ for (i in seq(1,n)) {
     row_ind = 4*(i-1) + j - 1
     p1 <- as.character(players[i])
     p2 <- as.character(players[j])
-    #print((paste(j, p2)))
     
-    bt_data[row_ind,] <- c(p1, p2, contingency_df[p2, p1], contingency_df[p1, p2])
+    bt_data[row_ind,] <- c(p1, p2, matchups100[rownames(matchups100)[j], p1], matchups100[rownames(matchups100)[i], p2])
   }
 }
 
