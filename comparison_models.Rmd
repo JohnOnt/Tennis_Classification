@@ -9,48 +9,18 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
+```{r, message=F}
 library("BradleyTerry2")
 library("data.table")
-# match_outcomes <- read.csv('match_outcomes.csv')
-# match_outcomes <- match_outcomes[-1,]
+library("tidyverse")
+```
+```{r}
 matchups100 <- read.csv('matchups_atp100.csv')
-rownames(matchups100) <- matchups100$X
 matchups100 <- matchups100[-c(1)]
+rownames(matchups100) <- colnames(matchups100)
 
 head(matchups100)
 ```
-
-```{r}
-players <- unique(match_outcomes$Player1)
-players <- players[-574]
-rownames(players) <- NULL
-n <- length(players)
-
-contingency_df <- as.data.frame(matrix(0, n, n))
-colnames(contingency_df) <- players
-rownames(contingency_df) <- players
-
-for (i in seq(1,n)) {
-  p1 <- as.character(match_outcomes[i, 'Player1'])
-  p2 <- as.character(match_outcomes[i, 'Player2'])
-  
-  if (as.numeric(match_outcomes[i,'Outcome']) == 1) {
-    contingency_df[p2, p1] = as.numeric(contingency_df[p2, p1]) + 1
-  }
-  else {
-    contingency_df[p1, p2] = as.numeric(contingency_df[p1, p2]) + 1
-  }
-}
-
-head(contingency_df)
-```
-```{r}
-players[1]
-rownames(matchups100)[1]
-matchups100[rownames(matchups100)[1], players[1]]
-```
-
 ```{r}
 n = dim(matchups100)[1]
 players = colnames(matchups100)
@@ -63,11 +33,11 @@ bt_data$p2 <- as.character(bt_data$p2)
 
 for (i in seq(1,n)) {
   for (j in seq(i,n)) {
-    row_ind = 4*(i-1) + j - 1
+    row_ind = n*(i-1) + j - 1
     p1 <- as.character(players[i])
     p2 <- as.character(players[j])
     
-    bt_data[row_ind,] <- c(p1, p2, matchups100[rownames(matchups100)[j], p1], matchups100[rownames(matchups100)[i], p2])
+    bt_data[row_ind,] <- c(p1, p2, matchups100[p2, p1], matchups100[p1, p2])
   }
 }
 
@@ -76,23 +46,29 @@ for (i in seq(1,n)) {
 ```{r}
 bt_data$p1 <- factor(bt_data$p1, levels=players)
 bt_data$p2 <- factor(bt_data$p2, levels=players)
+bt_data$win1 <- as.numeric(bt_data$win1)
+bt_data$win2 <- as.numeric(bt_data$win2)
+bt_data = drop_na(bt_data)
 head(bt_data)
+tail(bt_data)
 ```
 ```{r}
-btModel <- BTm(cbind(win1, win2), player1 = p1, player2 = p2, 
-               data=bt_data)
+bt_data.sf = countsToBinomial(matchups100)
+
+bt_data.sf
+```
+```{r}
+#btModel <- BTm(cbind(win1, win2), player1, player2, data=bt_data.sf)
+btModel <- BTm(1, win1, win2, ~ player1, player2, data=bt_data.sf)
+#btModel <- BTm(cbind(win1, win2), p1, p2, data=bt_data)
 ```
 
 ```{r}
-citeModel <- BTm(cbind(win1, win2), journal1, journal2, ~ journal,
-                 id = "journal", data = citations.sf)
-citeModel
+data("citations", package= "BradleyTerry2")
+
+citations.sf <- countsToBinomial(citations)
+names(citations.sf)[1:2] <- c("journal1", "journal2")
+citations.sf
 ```
-
-```{r}
-length(players)
-```
-
-
 
 
