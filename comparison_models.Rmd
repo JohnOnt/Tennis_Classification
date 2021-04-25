@@ -15,60 +15,37 @@ library("data.table")
 library("tidyverse")
 ```
 ```{r}
-matchups100 <- read.csv('matchups_atp100.csv')
-matchups100 <- matchups100[-c(1)]
-rownames(matchups100) <- colnames(matchups100)
+ATP_table <- read.csv('ATP_Cont_Table.csv')
+ATP_table <- ATP_table[-c(1)]
+rownames(ATP_table) <- colnames(ATP_table)
 
-head(matchups100)
+head(ATP_table)
 ```
 ```{r}
-n = dim(matchups100)[1]
-players = colnames(matchups100)
-df_length = 4005 #(factorial(n)) #/ (factorial(2) * factorial(n - 2))
-
-bt_data <- as.data.frame(matrix(0, (df_length), 4))
-colnames(bt_data) <- c("p1", "p2", "win1", "win2")
-bt_data$p1 <- as.character(bt_data$p1)
-bt_data$p2 <- as.character(bt_data$p2)
-
-for (i in seq(1,n)) {
-  for (j in seq(i,n)) {
-    row_ind = n*(i-1) + j - 1
-    p1 <- as.character(players[i])
-    p2 <- as.character(players[j])
-    
-    bt_data[row_ind,] <- c(p1, p2, matchups100[p2, p1], matchups100[p1, p2])
-  }
-}
-
-```
-
-```{r}
-bt_data$p1 <- factor(bt_data$p1, levels=players)
-bt_data$p2 <- factor(bt_data$p2, levels=players)
-bt_data$win1 <- as.numeric(bt_data$win1)
-bt_data$win2 <- as.numeric(bt_data$win2)
-bt_data = drop_na(bt_data)
-head(bt_data)
-tail(bt_data)
-```
-```{r}
-bt_data.sf = countsToBinomial(matchups100)
+bt_data.sf = countsToBinomial(ATP_table)
 
 bt_data.sf
 ```
 ```{r}
-#btModel <- BTm(cbind(win1, win2), player1, player2, data=bt_data.sf)
-btModel <- BTm(1, win1, win2, ~ player1, player2, data=bt_data.sf)
-#btModel <- BTm(cbind(win1, win2), p1, p2, data=bt_data)
+btModel <- BTm(cbind(win1, win2), player1, player2, data=bt_data.sf)
 ```
 
 ```{r}
-data("citations", package= "BradleyTerry2")
+summary(btModel)
+```
+# Now time to do the logistic regression model on the ELO data first and then include the data with the classified players and see if any of my work for the past days and hours is worth anything
 
-citations.sf <- countsToBinomial(citations)
-names(citations.sf)[1:2] <- c("journal1", "journal2")
-citations.sf
+```{r}
+elo_wins <- read.csv('elo_wins.csv')
+elo_wins[1,] <- c(-101, 0)
+elo_wins$winner <- as.factor(elo_wins$winner)
+
+head(elo_wins)
+```
+```{r}
+glm_elo <- glm(winner ~ elo_diff, data = elo_wins, family = "binomial")
+
+summary(glm_elo)
 ```
 
 
