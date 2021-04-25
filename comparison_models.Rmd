@@ -37,15 +37,25 @@ summary(btModel)
 
 ```{r}
 elo_wins <- read.csv('elo_wins.csv')
-elo_wins[1,] <- c(-101, 0)
+elo_wins[1,] <- c(-101, 1, 1, 0)
 elo_wins$winner <- as.factor(elo_wins$winner)
 
 head(elo_wins)
 ```
+
 ```{r}
+glm_0 <- glm(winner ~ 1, data = elo_wins, family = "binomial")
+summary(glm_0)
+
 glm_elo <- glm(winner ~ elo_diff, data = elo_wins, family = "binomial")
 
 summary(glm_elo)
 ```
+```{r}
+glm_class <- glm(winner ~ ., data = elo_wins, family = "binomial")
 
-
+summary(glm_class)
+```
+```{r}
+anova(glm_elo, glm_class, test = 'Chi')
+```
