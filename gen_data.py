@@ -79,7 +79,12 @@ def gen_elo_win_data():
             pl_class = pclasses.Class[pclasses.Player == pl].values[0]
             # You can add court surface values but that would be a lot more work
 
-            wins_sub_matrix[i] = [(pw_elo - pl_elo), pw_class, pl_class, 1]
+            # 0 if the player with the lower elo won, 1 if the person with the higher elo won
+            # [Elo_diff, lowerElo_class, higherElo_Class, Response Y]
+            if (pw_elo - pl_elo) > 0:
+                wins_sub_matrix[i] = [(pw_elo - pl_elo), pl_class, pw_class, 1]
+            else:
+                wins_sub_matrix[i] = [(pl_elo - pw_elo), pw_class, pl_class, 0]
         
         wins_matrix = np.append(wins_matrix, wins_sub_matrix, axis=0)
 

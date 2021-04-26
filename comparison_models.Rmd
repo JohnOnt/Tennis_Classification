@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library("BradleyTerry2")
 library("data.table")
 library("tidyverse")
+library('aod')
 ```
 ```{r}
 ATP_table <- read.csv('ATP_Cont_Table.csv')
@@ -37,8 +38,9 @@ summary(btModel)
 
 ```{r}
 elo_wins <- read.csv('elo_wins.csv')
-elo_wins[1,] <- c(-101, 1, 1, 0)
 elo_wins$winner <- as.factor(elo_wins$winner)
+elo_wins$winner_class <- as.factor(elo_wins$winner_class)
+elo_wins$loser_class <- as.factor(elo_wins$loser_class)
 
 head(elo_wins)
 ```
@@ -46,16 +48,31 @@ head(elo_wins)
 ```{r}
 glm_0 <- glm(winner ~ 1, data = elo_wins, family = "binomial")
 summary(glm_0)
-
+```
+```{r}
 glm_elo <- glm(winner ~ elo_diff, data = elo_wins, family = "binomial")
-
 summary(glm_elo)
 ```
 ```{r}
-glm_class <- glm(winner ~ ., data = elo_wins, family = "binomial")
+anova(glm_0, glm_elo, test='Chi')
+```
+
+```{r}
+glm_class <- glm(winner ~ elo_diff + winner_class + loser_class, data = elo_wins, family = "binomial")
+glm_just_class <- glm(winner ~ winner_class * loser_class, data = elo_wins, family = "binomial")
 
 summary(glm_class)
+summary(glm_just_class)
 ```
 ```{r}
 anova(glm_elo, glm_class, test = 'Chi')
+```
+
+```{r}
+
+#ones <- rep(1, nrow(elo_wins))
+#bb_elo <- betabin(cbind(winner, ones) ~ elo_diff, ~ 1,
+#                  link = 'logit', data = elo_wins)
+
+#summary(bb_elo)
 ```
