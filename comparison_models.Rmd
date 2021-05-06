@@ -10,37 +10,22 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r, message=F}
-library("BradleyTerry2")
-library("data.table")
 library("tidyverse")
 library('aod')
-```
-```{r}
-ATP_table <- read.csv('ATP_Cont_Table.csv')
-ATP_table <- ATP_table[-c(1)]
-rownames(ATP_table) <- colnames(ATP_table)
-
-head(ATP_table)
-```
-```{r}
-bt_data.sf = countsToBinomial(ATP_table)
-
-bt_data.sf
-```
-```{r}
-btModel <- BTm(cbind(win1, win2), player1, player2, data=bt_data.sf)
+library('arm')
+library('caret')
 ```
 
-```{r}
-summary(btModel)
-```
 # Now time to do the logistic regression model on the ELO data first and then include the data with the classified players and see if any of my work for the past days and hours is worth anything
 
 ```{r}
 elo_wins <- read.csv('elo_wins.csv')
+colnames(elo_wins) <- c('elo_diff', 'lower.elo.class', 'higher.elo.class', 'winner')
+```
+```{r}
 elo_wins$winner <- as.factor(elo_wins$winner)
-elo_wins$winner_class <- as.factor(elo_wins$winner_class)
-elo_wins$loser_class <- as.factor(elo_wins$loser_class)
+elo_wins$lower.elo.class <- as.factor(elo_wins$lower.elo.class)
+elo_wins$higher.elo.class <- as.factor(elo_wins$higher.elo.class)
 
 head(elo_wins)
 ```
@@ -54,25 +39,68 @@ glm_elo <- glm(winner ~ elo_diff, data = elo_wins, family = "binomial")
 summary(glm_elo)
 ```
 ```{r}
+binnedplot(fitted(glm_elo), residuals(glm_elo, type = "response"),
+xlab ="Fitted Probabilities", ylab="Averaged Residuals", pch=19, col.pts="red", cex.pts=1.5, main="Binned Residuals vs. Fitted Plot") 
+
+plot(cooks.distance(glm_elo), type="h", lwd=2,
+     xlab="Observation index",
+     ylab="Cook's distances",
+     main="Cook's distances for Tennis data")
+abline(h=1, lty=2, col="red")
+
 anova(glm_0, glm_elo, test='Chi')
+```
+```{r}
+dummyx <- data.frame(elo_diff = seq(0, 613))
+preds <- predict(glm_elo, newdata = dummyx, type='response')
+
+binout <- c()
+for (step in seq(10, 613, 10)) {
+    subdf <- elo_wins[elo_wins$elo_diff < step & elo_wins$elo_diff > (step-10),]
+    binout <- c(binout, mean(as.double(subdf$winner) - 1))
+}
+
+plot(seq(0, 603, 10), binout,
+     xlab = "Elo Difference", ylab = "Probability of Higher Elo Player Win",
+     main = "ELO Model: Elo Diff vs Win Prob")
+lines(dummyx$elo_diff, preds, col = 'red')
+legend("topleft",
+       legend = c("Averaged Bin Outcomes", "Predicted Prob."),
+       col = c('black', 'red'),
+       pch = c(1,0),
+       lty = c(NA,1))
 ```
 
 ```{r}
-glm_class <- glm(winner ~ elo_diff + winner_class + loser_class, data = elo_wins, family = "binomial")
-glm_just_class <- glm(winner ~ winner_class * loser_class, data = elo_wins, family = "binomial")
+glm_class <- glm(winner ~ elo_diff + lower.elo.class : higher.elo.class, 
+                 data = elo_wins, family = "binomial")
 
 summary(glm_class)
-summary(glm_just_class)
 ```
 ```{r}
 anova(glm_elo, glm_class, test = 'Chi')
 ```
 
 ```{r}
+binnedplot(fitted(glm_class), residuals(glm_class, type = "response"),
+xlab ="Fitted Probabilities", ylab="Averaged Residuals", pch=19, col.pts="red", cex.pts=1.5, main="Binned Residuals vs. Fitted Plot") 
 
-#ones <- rep(1, nrow(elo_wins))
-#bb_elo <- betabin(cbind(winner, ones) ~ elo_diff, ~ 1,
-#                  link = 'logit', data = elo_wins)
+plot(cooks.distance(glm_class), type="h", lwd=2,
+     xlab="Observation index",
+     ylab="Cook's distances",
+     main="Cook's distances for Tennis data")
+abline(h=1, lty=2, col="red")
+```
 
-#summary(bb_elo)
+```{r}
+#factor("0", levels = levels(elo_wins$lower.elo.class))
+# 2444 - 2350 = 94
+
+FedvsNad <- data.frame(elo_diff = c(0), 
+                       lower.elo.class = c("0"), 
+                       higher.elo.class = c("3"))
+
+predict(glm_elo, newdata = FedvsNad, type='response')
+predict.glm(glm_class, newdata = FedvsNad, type='response')
+
 ```

@@ -89,7 +89,7 @@ def gen_elo_win_data():
         wins_matrix = np.append(wins_matrix, wins_sub_matrix, axis=0)
 
 
-    colnames = ['elo_diff', 'winner_class', 'loser_class', 'winner']
+    colnames = ['elo_diff', 'lower_elo_class', 'higher_elo_class', 'winner']
     elo_wins_df = pd.DataFrame(wins_matrix[1:], columns=colnames)
     elo_wins_df = elo_wins_df.dropna()
     elo_wins_df.to_csv('elo_wins.csv', index=False)
