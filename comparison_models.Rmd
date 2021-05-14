@@ -72,7 +72,7 @@ legend("topleft",
 ```
 
 ```{r}
-glm_class <- glm(winner ~ elo_diff + lower.elo.class : higher.elo.class, 
+glm_class <- glm(winner ~  elo_diff + lower.elo.class : higher.elo.class, 
                  data = elo_wins, family = "binomial")
 
 summary(glm_class)
@@ -103,4 +103,7 @@ FedvsNad <- data.frame(elo_diff = c(0),
 predict(glm_elo, newdata = FedvsNad, type='response')
 predict.glm(glm_class, newdata = FedvsNad, type='response')
 
+```
+```{r}
+dinvchisq(1, 1, 1)
 ```
