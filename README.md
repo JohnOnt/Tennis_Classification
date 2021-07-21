@@ -1,5 +1,7 @@
 # Tennis_Classification
 
+# Paper Writeup
+OntiverosJ_FinalPaper.pdf
 
 # Data Source
 The point-by-point data used in this project comes from Jeff Sackman's Grand Slam data repository: (https://github.com/JeffSackmann/tennis_slam_pointbypoint.git).
